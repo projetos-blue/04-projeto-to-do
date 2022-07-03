@@ -1,11 +1,20 @@
 import './App.css';
 import Header from './header/header';
+import Tarefas from './Tarefas/tarefas.jsx';
 
 
 
 function App() {
   return (
-    <Header/>
+    <section>
+      <div className='header_layout'>
+        <Header/>
+      </div>
+      <div className='tarefas'>
+      <Tarefas/>
+      </div>
+    </section>
+    
   );
 }
 

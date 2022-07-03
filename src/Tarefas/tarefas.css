@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.tarefas {
+    color: #4EA8DE;
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: unset;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador {
+    color: white;
+    background-color: #333333;
+    border-radius: 10%;
+    margin-left: .5rem;
+    padding: .2rem .6rem;
+}

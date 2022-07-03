@@ -1,11 +1,42 @@
-.header div{
-    width: 100%;
-    padding-left: 50px;
-    max-width: 700px;
-    display: flexbox;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-h2 {
+.header_layout {
+    height: 100%;
+    width: 100%;
+    min-height: 120px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.title {
     color: white;
+    font-size: 12px;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+
+    max-width: 250px;
+}
+
+.iconeTitulo {
+    width: 100%;
+    max-width: 15px;
 }
