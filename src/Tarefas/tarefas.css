@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section.barraTarefas {
+    margin: auto;
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: solid #333333;
+    padding-bottom: 22px;
+}
+
+.tarefas {
+    color: #4EA8DE;
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+.contador {
+    color: white;
+    background-color: #333333;
+    border-radius: 10%;
+    margin-left: .5rem;
+    padding: .2rem .6rem;
+}
