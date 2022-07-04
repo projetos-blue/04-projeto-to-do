@@ -4,16 +4,17 @@ import estudo from '../../images/cards/card-estudo.png'
 import edit from '../../images/edit.png'
 import lixeira from '../../images/lixeira.png'
 
-function Card() {
+const Card = (props) => {
   return (
     <section className='cardTarefas'>
         <div className='cardLeft'>
             <div className='imagem'>
-                <img className='imagemCard' src={estudo} alt="e" />
+                <img {...props.image}className='imagemCard' src={estudo} alt="e" />
             </div>
             <div className='tituloLista'>
                 <div className='tarefa'>
                     <h4>MERCADO</h4>
+                    <p>Lorem, ipsum dolor.</p>
                 </div>
             </div>
         </div>

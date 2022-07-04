@@ -20,7 +20,10 @@ function App() {
         <Form />
       </div>
       <div className='cards'>
-        <Card />
+        <Card
+        titulo="Estudar"
+        
+        />
       </div>
     </section>
   );
