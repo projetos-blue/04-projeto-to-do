@@ -3,12 +3,6 @@
     padding: 0;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .header_layout {
     height: 100%;
